@@ -1,16 +1,15 @@
 let a = {
   hostEnv:'',
-  apiEnv:'test',
+  apiEnv:'',
   apiLocalEnv:'',
   projectName:'',
   baseInfo:{
     loginForm:{
-      username: "",
-      password: "",
+      username: '',
+      password: '',
     }
   },
   code:'',
-  agent:'unhnnnhnynhntnhnhnhnynhnbnhnnnhnvnnvvnhntnhnnnnvynhnnnhhnnhnhnnvvnhnhnhnhnhhnnhhnnhnnnhnhnhhnnhngnhhn',
   website:{
     host:'',
     loginConfig:{
@@ -22,5 +21,6 @@ let a = {
 
       ],
     },
-  }
+  },
+  agent:'qijiiijihijigijitijifijjiijitijijijjiijiyijihiifhijiiijjiijijijjjijiyijiiijijijijijjjijihijijijiiijiy'
 }

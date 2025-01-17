@@ -229,12 +229,12 @@ const b = {
 				"name": "",
 				"env": [
 					{
-						"name": "绑定投产站点地址",
+						"name": "投产环境",
 						"type": "publish",
 						"url": ""
 					},
 					{
-						"name": "绑定测试站点地址",
+						"name": "测试环境",
 						"type": "test",
 						"url": ""
 					}

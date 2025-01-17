@@ -19,15 +19,31 @@ html,body{
 	position: fixed;
 	z-index: 1;
 }
+.hidden {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.visible {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 0.3s ease, visibility 0.3s ease;
+}
 .b{
 	display: flex;
 	align-items: center;
+}
+.ais{
+	align-items:flex-start!important;
 }
 .Sayho{
 	max-width: 1920px;
 }
 .f1{
 	flex: 1;
+}
+.fg1{
+	flex-grow: 1;
 }
 .va{
 	width: 100%;
@@ -81,6 +97,9 @@ html,body{
 	-ms-user-select: none;
 	user-select: none;
 }
+.opa0{
+	opacity: 0;
+}
 .ow1{
 	overflow:hidden; text-overflow:ellipsis;display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:1; 
 }
@@ -102,6 +121,12 @@ div{
 	box-sizing:border-box;
 }
 #hide{
+	display: none!important;
+}
+.showa{
+	display: block!important;
+}
+.hidea{
 	display: none!important;
 }
 .hide{
@@ -170,6 +195,9 @@ div{
 .a-i-s{
 	align-items: start;
 }
+.a-i-e{
+	align-items: end;
+}
 .j-c-c{
 	justify-content: center;
 }
@@ -190,6 +218,9 @@ div{
 }
 .f-d-r{
 	flex-direction:row-reverse;
+}
+.d-c-r{
+	flex-direction:column-reverse;
 }
 .f-d-c{
 	flex-direction:column;
@@ -212,8 +243,14 @@ div{
 .w_col_4{
 	width: 25%;
 }
+.w_us{
+	width: unset!important;
+}
 .w0{
 	width: 0;
+}
+.w100i{
+	width: 100%!important;
 }
 .w100{
 	width: 100%;
@@ -294,6 +331,10 @@ div{
 	width: 100px;
 	min-width: 100px!important;
 }
+.w110p{
+	width: 110px;
+	min-width: 110px!important;
+}
 .w120p{
 	width: 120px;
 	min-width: 120px!important;
@@ -320,9 +361,17 @@ div{
 .minw160p{
 	min-width: 160px!important;
 }
+.w170p{
+	width: 170px;
+	min-width: 170px!important;
+}
 .w180p{
 	width: 180px;
 	min-width: 180px!important;
+}
+.w190p{
+	width: 190px;
+	min-width: 190px!important;
 }
 .w200p{
 	width: 200px;
@@ -371,6 +420,14 @@ div{
 	height:500px;
 	overflow-y:auto;
 }
+.mf{
+	max-height:400px;
+	overflow-y:auto;
+}
+.mh{
+	height:400px;
+	overflow-y:auto;
+}
 .mg{
 	height:450px;
 	overflow-y:auto;
@@ -400,8 +457,17 @@ div{
 .h450p{
 	height:450px;
 }
+.hauto{
+	height: auto;
+}
 .h100{
 	height: 100%;
+}
+.h100i{
+	height: 100%!important;
+}
+.ih100{
+	min-height: 100%;
 }
 .h66{
 	height: 66%;
@@ -447,6 +513,10 @@ div{
 .h30p{
 	height: 30px;
 	line-height: 30px;
+}
+.hl26p{
+	height: 26px!important;
+	line-height: 26px!important;
 }
 .hl30p{
 	height: 30px!important;
@@ -517,6 +587,9 @@ div{
 }
 .z-index-1{
 	z-index: 1;
+}
+.z-1{
+	z-index: -1;
 }
 .right_0{
 	right: 0px;
@@ -669,14 +742,20 @@ div{
 .ml40{
 	margin-left: 40px;
 }
+.ml50{
+	margin-left: 50px;
+}
 .ml60{
 	margin-left: 60px;
 }
 .ml80{
 	margin-left: 80px;
 }
+.ml200{
+	margin-left: 200px;
+}
 .mr5{
-	margin-right: 5px;
+	margin-right: 5px!important;
 }
 .mr10{
 	margin-right: 10px!important;
@@ -836,6 +915,9 @@ div{
 }
 .pr10{
 	padding-right: 10px;
+}
+.pr15{
+	padding-right: 15px;
 }
 .pr20{
 	padding-right: 20px;
@@ -1060,11 +1142,21 @@ div{
 	perspective: 1000px;
 	transform-style: preserve-3d;
 }
+.ofhi{
+	overflow: hidden!important;
+}
 .ofh{
 	overflow: hidden;
 }
+.ofay{
+	overflow-y:auto;
+}
 .ofhx{
 	overflow-x: hidden!important;
+}
+.bubble{
+	padding: 0px!important;
+    min-width:unset!important;
 }
 .menu-node{
 	color: #409EFF;
@@ -1243,8 +1335,6 @@ div{
 		box-shadow: 0 0px 4px 0 rgba(245,108,108, 0.9), 0 0px 4px 0 rgba(245,108,108,1);
 	}
 }
-
-
 .diyscroll > ::-webkit-scrollbar{
 	/*高宽分别对应横竖滚动条的尺寸*/
 	width: 10px;     
@@ -1343,16 +1433,22 @@ div{
     justify-content: center;
 	overflow: hidden!important;
 }
+.cm1{
+	max-height:500px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.el-radio__original {
+	display: none !important; 
+}
+.el-radio:focus:not(.is-focus):not(:active):not(.is-disabled) .el-radio__inner {
+    box-shadow: none !important;
+}
 .el-message--error{
 	max-width: 80%!important;
 }
 .el-message--error > .el-message__content{
 	max-width: 90%;
-}
-.cm1{
-	max-height:500px;
-	overflow-y:auto;
-	overflow-x:hidden;
 }
 .el-steps{
 	background-color: transparent!important;
@@ -1446,4 +1542,20 @@ div{
 }
 .el-icon-refresh-right:hover{
 	transform: scale(1.1);
+}
+.v-enter,
+.v-leave-to {
+	opacity: 0;
+	transform: translateY(100px);
+}
+.v-enter-active,
+.v-leave-active {
+	transition: all 1s ease;
+}
+.v-move {
+	transition: all 1s;
+}
+.v-leave-active {
+	position: absolute;
+	max-width: 100%!important;
 }
