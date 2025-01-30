@@ -31,7 +31,7 @@ const b = {
 		"foldSize":30,
 		"foldfdc":'#000000',
 		"foldfdct":'2',
-		"sideWidth":'12',
+		"sideWidth":'200',
 		"sidebgc":'#ffffff',
 		"sidebgcType":'2',
 		"sideItemHeight":56,
