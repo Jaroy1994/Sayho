@@ -11,6 +11,7 @@ const b = {
 		"m": []
 	}],
 	"layout":{
+		"len":'ģ«Ğªþäqæ~',
 		"bannerShow":'1',
 		"bannerbgc":'#303133',
 		"bannerbgcType":'2',
