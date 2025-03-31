@@ -11,3 +11,5 @@
 #### 使用说明
 打开index.html之后进入界面主视图，通过“Sayho工具箱”当中的各类功能配置项，根据产品需求完成页面设计布局即可。
 
+#### 教学视频地址
+https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
