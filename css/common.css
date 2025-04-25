@@ -373,6 +373,9 @@ div{
 	width: 190px;
 	min-width: 190px!important;
 }
+.h200p{
+	height: 200px;
+}
 .w200p{
 	width: 200px;
 	min-width: 200px!important;
@@ -1103,6 +1106,9 @@ div{
 .theme-menu-default-bg-c{
 	background-color: #545c64;
 	border: none;
+}
+.c-def{
+	color: #606266;
 }
 .toc{
 	color: #409EFF;
