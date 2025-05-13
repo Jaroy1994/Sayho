@@ -13,3 +13,8 @@
 
 #### 教学视频地址
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
+
+
+#### update code 20250514
+1 修复新增接口无传参时，发起请求js报错问题；
+2 解除css样式工程文件部分代码分包
