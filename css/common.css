@@ -1245,10 +1245,10 @@ div{
 :root {
 	--ani-duration: 3s;
 	--ani-timing: ease;
-  }
+}
   
-  /* 统一动画 */
-  @keyframes blink {
+/* 统一动画 */
+@keyframes blink {
 	0%, 100% {
 	  border-color: var(--ani-border-color);
 	  box-shadow: var(--ani-shadow1), var(--ani-shadow2);
@@ -1257,28 +1257,28 @@ div{
 	  border-color: transparent;
 	  box-shadow: none;
 	}
-  }
-  /* 通用闪烁样式 */
-  .animated-border {
+}
+/* 通用闪烁样式 */
+.animated-border {
 	box-sizing: border-box;
 	border: 1px solid;
 	border-radius: 6px;
 	animation: blink var(--ani-duration) var(--ani-timing) infinite;
-  }
+}
   
-  /* 蓝色闪烁边框 */
-  .ani-bs {
+/* 蓝色闪烁边框 */
+.ani-bs {
 	--ani-border-color: rgba(64, 158, 255, 1);
 	--ani-shadow1: 0 0 4px 0 rgba(64, 158, 255, 0.9);
 	--ani-shadow2: 0 0 4px 0 rgba(64, 158, 255, 1);
-  }
+}
   
-  /* 橙色闪烁边框 */
-  .ani-bss {
+/* 橙色闪烁边框 */
+.ani-bss {
 	--ani-border-color: rgba(230, 162, 60, 1);
 	--ani-shadow1: 0 0 4px 0 rgba(230, 162, 60, 0.9);
 	--ani-shadow2: 0 0 4px 0 rgba(230, 162, 60, 1);
-  }
+}
   
 /* 红色闪烁边框 */
 .ani-bsd,
@@ -1291,7 +1291,6 @@ div{
 	--ani-shadow1: 0 0 4px 0 rgba(245, 108, 108, 0.9);
 	--ani-shadow2: 0 0 4px 0 rgba(245, 108, 108, 1);
 }
-
 .diyscroll > ::-webkit-scrollbar{
 	/*高宽分别对应横竖滚动条的尺寸*/
 	width: 10px;     
@@ -1617,6 +1616,8 @@ div{
 .fColl > div > .el-collapse-item__content{
     padding: 0!important;
 }
+.ndm .el-dialog,
+.Md_c .el-dialog,
 .ruleDialog > .el-dialog{
     min-width: 820px!important;
 }
@@ -1624,9 +1625,6 @@ div{
 .Lw_c .v-leave-to {
 	opacity: 0;
 	transform: translateY(-1000px);
-}
-.Md_c .el-dialog{
-    min-width: 820px!important;
 }
 .amap-logo {
 	display: none!important;
@@ -1805,13 +1803,8 @@ div{
 .Pv_c .el-collapse-item__content{
     color:#606266;
 }
-.Pv_c .el-radio{
-    margin-right:10px!important;
-}
 .am1 {
-	font-size: 16px!important;
     font-weight: bold;
-    color: #fff!important;
 }
 .Pv_c .el-input__inner,
 .St_c .el-input__inner,
@@ -1952,6 +1945,7 @@ height: 100%;
 .Sk_c .el-collapse-item__content{
     padding-bottom: 2px!important;
 }
+.Pv_c .el-radio,
 .Sk_c .el-radio{
     margin-right:10px!important;
 }
