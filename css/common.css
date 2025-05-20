@@ -1864,10 +1864,10 @@ height: 100%;
 		border-right: 1px solid #DCDFE6;
 	}
 }
-.f1{
+.fs1{
     font-size:16px!important;
 }
-.f1 span{
+.fs1 span{
     font-size: inherit!important;
 }
 .br4,
@@ -1985,6 +1985,7 @@ height: 100%;
 }
 .lqlc > .el-input-number--mini > .el-input--mini > .el-input__inner{
     padding-left: 0px!important;
+    padding-right: 0px!important;
 }
 .Uf_c .el-collapse-item__content{
     padding-bottom: 2px!important;

@@ -14,6 +14,12 @@
 #### 教学视频地址
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
+#### update code 20250520
+1 树形控件<tree>组件：
+    a新增配置项【树形控件回显数据】-配套选项字段 “回显标志位” 及 “回显文本内容”；
+    b新增配置项【回显标签展示类型】-配套选项字段 “标准类型” 及 “气泡弹窗”；
+    c新增配置项【回显标签展示位置】-配套选项字段 “组件区域顶部” 及 “组件区域底部”；
+
 #### update code 20250515
 1 修复前台page界面-选项卡模块选项标签动画字体大小失效问题；
 
