@@ -33,6 +33,10 @@ html,body{
 	display: flex;
 	align-items: center;
 }
+.bip{
+	display: flex!important;
+	align-items: center!important;
+}
 .ais{
 	align-items:flex-start!important;
 }
