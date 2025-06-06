@@ -1272,7 +1272,7 @@ div{
   
 /* 蓝色闪烁边框 */
 .ani-bs {
-	--ani-border-color: rgba(64, 158, 255, 1);
+	--ani-border-color: lab(63.97% 4.55 -56.02);
 	--ani-shadow1: 0 0 4px 0 rgba(64, 158, 255, 0.9);
 	--ani-shadow2: 0 0 4px 0 rgba(64, 158, 255, 1);
 }
@@ -1814,6 +1814,7 @@ div{
 .St_c .el-input__inner,
 .Sj_c .el-input__inner,
 .Lr_c .el-input__inner,
+.dtd > .el-input > .el-input__inner,
 .sh_i > .el-input > .el-input__inner,
 .Pi_c .mqr > .el-input > .el-input__inner,
 .npr > div > div > div > div >div > .el-input > .el-input__inner{
@@ -2052,4 +2053,10 @@ height: 100%;
 	100% { 
 		left: 0px;
 	}
+}
+.c-type-3 > span > div > span{
+	width: 100%!important;
+}
+.ve-map > div{
+	height: 100%!important;
 }
