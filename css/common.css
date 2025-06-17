@@ -721,9 +721,6 @@ div{
 .col4_g{
     min-width: 335px!important;
 }
-.margin0{
-	margin: 0px!important;
-}
 .m5{
 	margin: 5px;
 }
@@ -1204,26 +1201,27 @@ div{
 	padding: 0px!important;
     min-width:unset!important;
 }
-.menu-node{
-	color: #409EFF;
+.p-b{
 	padding: 0 3px;
-	border: 1px solid #409EFF;
 	border-radius: 3px;
 	margin-left: 10px;
+	border: 1px solid;
+}
+.menu-node{
+	color: #409EFF;
+	border-color:#409EFF;
 }
 .menu-page{
 	color: #67c23a;
-	padding: 0 3px;
-	border: 1px solid #67c23a;
-	border-radius: 3px;
-	margin-left: 10px;
+	border-color:#67c23a;
 }
 .link-page{
 	color: #e6a23c;
-	padding: 0 3px;
-	border: 1px solid #e6a23c;
-	border-radius: 3px;
-	margin-left: 10px;
+	border-color:#e6a23c;
+}
+.drawer-page{
+	color: #f56c6c;
+	border-color:#f56c6c;
 }
 .shadow{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
@@ -1415,9 +1413,6 @@ div{
 .el-tree-node__content{
     height:40px;
 }
-.nav-item:hover{
-    background: #F5F5F5;
-}
 .el-dialog__wrapper{
 	background: rgba(0,0,0,0.2);
 	overflow-y: hidden;
@@ -1548,10 +1543,11 @@ div{
 .Bs_c .el-dialog__header{
     padding: 2px 0!important;
 }
-.Bs_c .el-collapse-item__content{
-    padding-bottom: 2px!important;
-}
-.Bt_c .el-collapse-item__content{
+.Sk_c .el-collapse-item__content,
+.Uf_c .el-collapse-item__content,
+.Bs_c .el-collapse-item__content,
+.Bt_c .el-collapse-item__content
+{
     padding-bottom: 2px!important;
 }
 .bn > span{
@@ -1613,6 +1609,7 @@ div{
 	padding-left: 20px;
 }
 .p0,
+.popover-nb,
 .Bs_c .el-dialog__body,
 .Ts_c .el-dialog__body,
 .Pp_c .el-dialog__body,
@@ -1781,6 +1778,8 @@ div{
 .Pp_c .el-dialog{
     min-width: 1280px!important;
 }
+.margin0,
+.popover-nb,
 .sh-dialog .el-dialog{
     margin: 0!important;
 }
@@ -1855,18 +1854,18 @@ height: 100%;
 
 .form-style {
 	background: #fafafa;
-	border-top: 1px solid #DCDFE6;
 	border-bottom: 1px solid #DCDFE6;
 	height: calc(100% + 1px);
 	padding: 0;
 	margin: -1px 0 0 1px;
-
+	.left { 
+		border-top: 1px solid #DCDFE6;
+	}
 	.left p { margin-right: 0; }
-
 	.right {
 		background: #fff;
-		border-left: 1px solid #DCDFE6;
-		border-right: 1px solid #DCDFE6;
+		border: 1px solid #DCDFE6;
+		border-bottom: 0!important;
 	}
 }
 .fs1{
@@ -1947,9 +1946,6 @@ height: 100%;
 	left: -15px;
 	--angle: 45deg;
 }
-.Sk_c .el-collapse-item__content{
-    padding-bottom: 2px!important;
-}
 .Pv_c .el-radio,
 .Sk_c .el-radio{
     margin-right:10px!important;
@@ -1991,9 +1987,6 @@ height: 100%;
 .lqlc > .el-input-number--mini > .el-input--mini > .el-input__inner{
     padding-left: 0px!important;
     padding-right: 0px!important;
-}
-.Uf_c .el-collapse-item__content{
-    padding-bottom: 2px!important;
 }
 .Uf_c .textarea  > .el-textarea > .el-textarea__inner{
     overflow-y: hidden;
@@ -2058,5 +2051,17 @@ height: 100%;
 	width: 100%!important;
 }
 .ve-map > div{
+	height: 100%!important;
+}
+.el-transfer-panel__header{
+	display: flex;
+}
+.el-transfer-panel__header > .el-checkbox{
+	width: 100%;
+}
+.el-transfer-panel__header > .el-checkbox > .el-checkbox__label{
+	font-size: 14px!important;
+}
+.lch span{
 	height: 100%!important;
 }
