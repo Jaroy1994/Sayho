@@ -793,9 +793,6 @@ div{
 .mt5{
 	margin-top: 5px!important;
 }
-.mt10{
-	margin-top: 10px!important;
-}
 .mt12{
 	margin-top: 12px!important;
 }
@@ -1733,11 +1730,6 @@ div{
 .Pp_c .el-dialog{
     min-width: 1280px!important;
 }
-.margin0,
-.popover-nb,
-.sh-dialog .el-dialog{
-    margin: 0!important;
-}
 .Pt_c .el-collapse-item__header,
 .Tc_c .el-collapse-item__header,
 .el-collapse-item__header,
@@ -2075,4 +2067,32 @@ height: 100%;
 }
 .el-drawer__wrapper{
 	z-index: 99999!important;
+}
+.el-transfer-panel__header{
+	display: flex;
+	align-items: center;
+}
+.el-transfer-panel__list > .el-checkbox{
+	height: 30px;
+	margin-right:20px;
+}
+.el-checkbox__label > .transfer-item{
+	display: block!important;
+	height: 30px!important;
+}
+.mt10,
+.el-transfer__button
+{
+	margin-top: 10px!important
+}
+.margin0,
+.popover-nb,
+.sh-dialog .el-dialog,
+.el-transfer__button > span > span
+{
+    margin: 0!important
+}
+.el-slider__marks-text{
+	min-width: 100px;
+	text-align: center;
 }
