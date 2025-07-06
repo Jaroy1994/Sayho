@@ -1089,6 +1089,9 @@ div{
 .c_606266{
 	color: #606266;
 }
+.bc-fa{
+	background-color: #fafafa;
+}
 .theme-add-bg-c{
 	background-color: #e6a23c;
 	border: none;
@@ -1395,6 +1398,7 @@ div{
 .el-message--error > .el-message__content{
 	max-width: 90%;
 }
+.bts,
 .el-steps{
 	background-color: transparent!important;
 }
@@ -1796,9 +1800,7 @@ border-left: 1px solid #DCDFE6;
 box-sizing: content-box;
 height: 100%;
 }
-
-.fs15f { font-size: 18.75px; }
-
+.fs15f { font-size: 18.75px}
 .form-style {
 	background: #fafafa;
 	border-bottom: 1px solid #DCDFE6;
@@ -1814,6 +1816,18 @@ height: 100%;
 		border: 1px solid #DCDFE6;
 		border-bottom: 0!important;
 	}
+}
+.b0{border:0!important}
+.form-style-wrap > .bts{
+	border-top:1px solid #DCDFE6!important;
+}
+.blend-box .blend-item:first-of-type .form-style-wrap > .bts > .left,
+.blend-box .blend-item:first-of-type .form-style-wrap > .bts > .right {
+    border-left: 1px solid #DCDFE6!important;
+}
+.blend-box .blend-item:last-of-type .form-style-wrap > .bts > .left,
+.blend-box .blend-item:last-of-type .form-style-wrap > .bts > .right {
+    border-right: 1px solid #DCDFE6!important;
 }
 .fs1{
     font-size:16px!important;
