@@ -1416,7 +1416,7 @@ div{
 }
 .el-dialog__wrapper{
 	background: rgba(0,0,0,0.2);
-	overflow-y: hidden!important;
+	overflow: hidden!important;
 }
 .el-image-viewer__mask{
 	background: rgba(0,0,0, 0.8);
@@ -1514,7 +1514,7 @@ div{
 	overflow: hidden;
 	span {
 		display: flex;
-		align-items: center;
+		/* align-items: center; */
 		flex-wrap: wrap;
 	}
 }
