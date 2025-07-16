@@ -14,6 +14,9 @@
 #### 教学视频地址
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
+#### update code 20250716
+1 紧急修复 表格无法动态绑定数据问题
+
 #### update code 20250715
 1 组件 【默认值来源】 新增 “依条件判断赋值”
 #### 
