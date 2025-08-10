@@ -1381,6 +1381,9 @@ div{
     justify-content: center;
 	overflow: hidden!important;
 }
+.el-select > .el-input > input{
+	height: unset!important;
+}
 .cm1{
 	max-height:500px;
 	overflow-y:auto;
@@ -2109,4 +2112,8 @@ height: 100%;
 .el-slider__marks-text{
 	min-width: 100px;
 	text-align: center;
+}
+.el-dropdown-menu{
+	padding: 0!important;
+	margin: 15px 0 0 0!important;
 }
