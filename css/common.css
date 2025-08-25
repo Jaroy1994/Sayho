@@ -2117,3 +2117,14 @@ height: 100%;
 	padding: 0!important;
 	margin: 15px 0 0 0!important;
 }
+.tz-w-close {
+  cursor: pointer;
+  margin-left: 16px;
+  font-size: 20px;
+  line-height: 1;
+  color: #909399;
+  align-self: flex-start;
+}
+.tz-w-close:hover {
+  color: #606266;
+}
