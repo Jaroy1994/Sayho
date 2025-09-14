@@ -15,6 +15,13 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20250914
+
+紧急修复前台选项卡模块选项卡标签背景透明图片png格式下的白屏问题。
+
+#### 
+
+
 #### update code 20250913
 1 前端开发相关配置 》 设置请求资源 》 配置ajax请求信息：
 #### 
