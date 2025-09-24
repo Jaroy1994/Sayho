@@ -2128,6 +2128,6 @@ height: 100%;
 .tz-w-close:hover {
   color: #606266;
 }
-/* .el-table thead.is-group th.el-table__cell{
-	background: transparent!important;
-} */
+.el-range-editor.el-input__inner{
+	justify-content: space-between;
+}

@@ -15,6 +15,15 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20250924
+2 新增组件 “按钮-button”
+#### 
+    a当【组件类型】选项为“复合组件”时，在添加复合组件成员切换组件类型时条件展示；
+#### 
+    功能描述：与模块区域按钮功能一致，支持更多自定义设计的css样式配置。
+#### 
+
+
 #### update code 20250914
 
 紧急修复前台选项卡模块选项卡标签背景透明图片png格式下的白屏问题。
