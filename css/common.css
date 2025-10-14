@@ -2131,3 +2131,7 @@ height: 100%;
 .el-range-editor.el-input__inner{
 	justify-content: space-between;
 }
+.blend-box > span{
+	display: flex;
+	align-items: center;
+}

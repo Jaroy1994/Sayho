@@ -14,6 +14,13 @@
 #### 教学视频地址
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
+#### update code 20250924
+1 组件 “按钮-button” 配置项【按钮功能类型】新增 “打开附生窗口”选项
+#### 
+2 修复已知问题：当数据池线程【数据来源】为“前端设置固定值”的数组，表格无法动态绑定问题
+#### 
+3 前台界面/菜单配置界面 【取 消】按钮点击新增提示确认窗口，防止操作失误鼠标点击，导致未保存的工作数据丢失；
+#### 
 
 #### update code 20250924
 2 新增组件 “按钮-button”
