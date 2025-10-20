@@ -86,6 +86,9 @@ html,body{
 	.sh-tool-box > .el-dialog__wrapper >.el-dialog{
 		transform: scale(0.9);
 	}
+	.ys-popover{
+		transform: scale(0.9);
+	}
 }
 
 .login-container {
@@ -949,6 +952,9 @@ div{
 }
 .fwb{
 	font-weight: bold;
+}
+.fwn{
+	font-weight: normal;
 }
 .fs11{
 	font-size: 11px;
