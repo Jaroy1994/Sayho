@@ -15,7 +15,7 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
-#### update code 20251203
+#### update code 20251209
 
 1 配置项【模块类型】选项 “查询模块”
 #### 
@@ -34,6 +34,8 @@ https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video
 #### 
     功能描述：当选项卡标签右上角气泡动态展示后端响应返回的数字大于【选项卡标记最大值】设置的值，以默认值99为例页面标签右上角气泡展示数字“99+”，对系统全局的选项卡模式的查询模块生效。
 #### 
+
+#### update code 20251203
 
 2 系统界面相关配置》设置系统主题》系统模块组件通用参数配置》模块 新增“列表模块”
 #### 
