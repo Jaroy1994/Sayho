@@ -15,6 +15,10 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20251216
+1 紧急修复：表格汇总行合计》部分业务场景数字包含小数点时除不尽导致精确度丢失的问题
+#### 
+
 #### update code 20251215
 
 1 菜单配置页  设置请求列表  接口参数及返回数据设置
