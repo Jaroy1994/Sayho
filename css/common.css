@@ -1746,9 +1746,9 @@ div{
 .col4_wcsroll-auto_w-d {
     width: 0.7*1690px;
 }
-.Pp_c .el-dialog{
+/* .Pp_c .el-dialog{
     min-width: 1280px!important;
-}
+} */
 .Pt_c .el-collapse-item__header,
 .Tc_c .el-collapse-item__header,
 .el-collapse-item__header,
