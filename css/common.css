@@ -2094,9 +2094,6 @@ height: 100%;
         opacity: 1;
     }
 }
-.el-drawer__wrapper{
-	z-index: 99999!important;
-}
 .el-transfer-panel__header{
 	display: flex;
 	align-items: center;
