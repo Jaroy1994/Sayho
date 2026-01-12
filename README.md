@@ -15,7 +15,7 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
-#### update code 20251231
+#### update code 20260113
 组件 》 新增 日期时间选择器time
 #### 
 a.新增配置项【时间格式】： 组件类型 为 “日期时间选择器”时条件展示 单选按钮 选项 HH:mm:ss和HH:mm以及mm:ss   默认选项 HH:mm:ss。
