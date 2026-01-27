@@ -1816,6 +1816,17 @@ box-sizing: content-box;
 height: 100%;
 }
 .fs15f { font-size: 18.75px}
+.form-cell{
+	background: #fafafa;
+	border-bottom: 1px solid #DCDFE6;
+	border-left: 1px solid #DCDFE6;
+}
+.form-cell:last-of-type{
+	border-bottom: 0!important;
+}
+.form-cell-r{
+	border-left: 1px solid #DCDFE6;
+}
 .form-style {
 	background: #fafafa;
 	border-bottom: 1px solid #DCDFE6;
