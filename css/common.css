@@ -485,6 +485,9 @@ div{
 .hauto{
 	height: auto;
 }
+.h80{
+	height: 80%;
+}
 .h100{
 	height: 100%;
 }
@@ -627,6 +630,12 @@ div{
 .right_0{
 	right: 0px;
 }
+.right_5p{
+	right: 5px;
+}
+.right20{
+	right: 20%;
+}
 .left_0{
 	left: 0px;
 }
@@ -639,6 +648,9 @@ div{
 }
 .top_0{
 	top:0px;
+}
+.top10{
+	top:10%;
 }
 .top_10{
 	top:10px;
@@ -834,6 +846,9 @@ div{
 }
 .pfull{
 	padding: 9999px!important;
+}
+.p0_8{
+	padding: 0px 8px!important;
 }
 .p0_16{
 	padding: 0px 16px!important;
