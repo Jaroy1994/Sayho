@@ -633,6 +633,9 @@ div{
 .right_5p{
 	right: 5px;
 }
+.right10{
+	right: 10%;
+}
 .right20{
 	right: 20%;
 }
@@ -651,6 +654,12 @@ div{
 }
 .top10{
 	top:10%;
+}
+.top22{
+	top:22%;
+}
+.top29{
+	top:29%;
 }
 .top_10{
 	top:10px;
