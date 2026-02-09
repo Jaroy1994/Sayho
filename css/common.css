@@ -402,6 +402,9 @@ div{
 .w240p{
 	width: 240px!important;
 }
+.wMax160px{
+	max-width: 160px!important;
+}
 .wMax240px{
 	max-width: 240px!important;
 }
