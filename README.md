@@ -14,6 +14,14 @@
 #### 教学视频地址
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
+#### update code 202602010
+1 表单/查询模块 》下拉选择框< select> 》 配置项【设置事件关联】》 前往设置
+#### 
+a.触发@change事件：新增 选项 遍历枚举赋值
+#### 
+功能描述：从数据池中绑定所需遍历的数组，然后遍历数组执行枚举，其映射的成员字段值等于当前下拉选择框的选项值时，可从被枚举命中的对象成员当中选取其他字段值动态赋值到目标组件。
+#### 
+
 #### update code 20260209
 1 表单模块 》标签卡模式
 #### 
@@ -48,25 +56,43 @@ d-3.【配置枚举条件关联参数】 表格 》 新增 【枚举对象参数
 d-4.【配置枚举条件关联参数】 表格 》 新增 【操作】
 #### 
 功能描述：在表单类数据回显的业务场景中，常用于后端详情接口返回的响应数据需要根据给定枚举值映射另一个接口响应返回数据获取更多信息进行前端页面的展示。
+#### 
 假设应用场景如下：
+#### 
 已知学生student的信息:{sName:"小明",gender:"男",sNum:ECI13045}
+#### 
 班级的成绩单数组gradeList:[
+#### 
 {id:ECI130001,name:"小红",math:92,physics:88,chemistry:93},
+####
 {id:ECI130002,name:"小强",math:97,physics:94,chemistry:90},
+####
 ...
+####
 ]
+####
 现要求根据学生student的姓名sName以及学号sNum从成绩单gradeList找到该学生的物理成绩作为组件的默认值字段展示。
+####
 
 故该需求的代码表达式为: gradeList.find(v=> v.name==student.sName && v.id==student.sNum).physics
+####
 
 以上代码表达式与配置项之间的关系：
+####
 gradeList对应绑定遍历数组
+####
 .find()代表枚举查询的方法
+####
 v代表遍历过程中数组gradeList的成员对象
+####
 v.name和v.id对应遍历过程中数组gradeList成员对象字段
+####
 student对应关联枚举对象
+####
 student.sName和student.sNum对应枚举对象参数字段
+####
 &&(并且)和||(或者)对应判断逻辑类型
+####
 .physics对应遍历数组gradeList满足枚举条件结果的对象成员字段
 ####
 
