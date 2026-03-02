@@ -15,6 +15,25 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20260302
+1 表单模块 》文件< files> 》 配置项【设置上传选择器】接口请求参数来源为“取上传选中文件”时，参数类型为非文件类型时新增浏览器原生控件返回相关Base64及其文件类型等相关信息的供选项选择
+#### 
+功能描述：假设用户上传一张电脑本地图片image01.jpg，通过转换base64得到data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUND
+#### 
+配置项Base64地址输出结果为：data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUND
+#### 
+配置项Base64内容输出结果为：/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUND
+#### 
+配置项文件格式输出结果为：jpg
+
+#### 
+2 表单模块 》底部按钮
+#### 
+配置项【按钮功能类型】为“发起请求”时，接口参数及返回数据设置接口请求参数来源新增“公式计算”
+#### 
+功能描述：为满足更多个性化操作，发起请求之前，允许前端进行更多自定义的接口请求参数赋值操作，以应对更为复杂的设计前端计算的业务场景。
+#### 
+
 #### update code 20260222
 1 表单模块 》文件< files> 》 配置项【文件类型】新增选项 二维码
 #### 
