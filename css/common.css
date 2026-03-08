@@ -1431,6 +1431,11 @@ div{
 	overflow-y:auto;
 	overflow-x:hidden;
 }
+.cm2{
+	max-height:400px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
 .el-radio__original {
 	display: none !important; 
 }
