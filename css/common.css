@@ -2173,6 +2173,9 @@ height: 100%;
 	padding: 0!important;
 	margin: 15px 0 0 0!important;
 }
+.el-range-input{
+	max-width: 76px
+}
 .tz-w-close {
   cursor: pointer;
   margin-left: 16px;
