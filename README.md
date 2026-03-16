@@ -16,6 +16,10 @@ https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video
 
 
 #### update code 20260314
+1 紧急修复 表格模块》表单元格》 文本内容 text：配置项 【文本内容格式】更多展示规则 打开配置弹窗页面js报错问题
+#### 
+
+#### update code 20260314
 1 组件 》 多选按钮checkbox  
 #### 
 a.新增配置项【设置全选按钮】：单选按钮 选项 是/否 默认 否；
