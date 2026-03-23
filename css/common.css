@@ -89,8 +89,13 @@ html,body{
 	.ys-popover{
 		transform: scale(0.9);
 	}
+	.el-range-input{
+		max-width: 88px
+	}
 }
-
+.el-range-input{
+	max-width: 75px
+}
 .login-container {
 	width: 25%;
 	min-width: 400px;
@@ -2173,8 +2178,8 @@ height: 100%;
 	padding: 0!important;
 	margin: 15px 0 0 0!important;
 }
-.el-range-input{
-	max-width: 76px
+.el-range-separator{
+	min-width: 14px
 }
 .tz-w-close {
   cursor: pointer;
