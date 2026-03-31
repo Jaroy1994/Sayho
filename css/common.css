@@ -1126,6 +1126,9 @@ div{
 .theme-btn:hover{
 	opacity: 0.9;
 }
+.dly-h:hover{
+	opacity: 0.9!important
+}
 .theme-btn-default-bg-c{
 	background-color: #409EFF;
 	border: none;
