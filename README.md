@@ -15,7 +15,7 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
-#### update code 20260331
+#### update code 20260401
 1 系统界面相关配置 》 设置系统主题 》系统模块组件通用参数配置 》 模块  
 #### 
 a-1.查询模块 》 查询模块头部区域：新增 【选项卡按钮】 相关css样式自定义设置
