@@ -2202,3 +2202,10 @@ height: 100%;
 	display: flex;
 	align-items: center;
 }
+.el-timeline-item__timestamp.is-top{
+	margin-bottom: 0px!important;
+    padding-top: 0px!important;
+}
+.el-timeline-item{
+	padding: 0px!important;
+}
