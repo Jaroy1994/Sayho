@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-77379686"],{f7063:function(n,r,t){"use strict";t.r(r);var e=function(){var n=this,r=n._self._c;return r("iframe",{attrs:{src:n.a,width:"100%",height:"100%",frameborder:"0"}})},a=[],s={name:"Nq",props:{a:{type:String}}},i=s,u=t("2877"),c=Object(u["a"])(i,e,a,!1,null,null,null);r["default"]=c.exports}}]);
