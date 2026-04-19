@@ -15,6 +15,12 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20260419
+1 组件 》 复合组件blend   
+#### 
+问题修复：处理 在使用表单样式的情况下， 配置项【开启增删栏】为 “是” 且 【隐藏增删按钮】为 “是” 时，页面上当增删栏成员数目大于1的时候，部分表单边框无法显示的问题。
+#### 
+
 #### update code 20260418
 1 前端开发相关配置 》 设置请求资源 》 配置地图信息 更名为 依赖库libs配置信息 
 #### 
