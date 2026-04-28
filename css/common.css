@@ -89,12 +89,13 @@ html,body{
 	.ys-popover{
 		transform: scale(0.9);
 	}
-	.el-range-input{
-		max-width: 88px
-	}
 }
 .el-range-input{
 	max-width: 75px
+}
+.el-range-editor--small > .el-range-input{
+	max-width: 70px;
+	min-width: 67px;
 }
 .login-container {
 	width: 25%;
