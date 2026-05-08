@@ -580,6 +580,9 @@ div{
 .mh40p{
 	max-height: 40px;
 }
+.mh50p{
+	max-height: 50px;
+}
 .minh30p{
 	min-height: 30px;
 }
@@ -1861,10 +1864,11 @@ box-sizing: content-box;
 height: 100%;
 }
 .fs15f { font-size: 18.75px}
-.form-cell{
+.form-cells,.form-cell{
 	background: #fafafa;
 	border-bottom: 1px solid #DCDFE6;
 	border-left: 1px solid #DCDFE6;
+	box-sizing: border-box;
 }
 .form-cell:last-of-type{
 	border-bottom: 0!important;
@@ -1877,7 +1881,7 @@ height: 100%;
 	border-bottom: 1px solid #DCDFE6;
 	height: calc(100% + 1px);
 	padding: 0;
-	margin: -1px 0 0 0px;
+	margin: 0 0 0 0px;
 	.left { 
 		border-top: 1px solid #DCDFE6;
 	}
@@ -2212,4 +2216,19 @@ height: 100%;
 }
 .el-divider--horizontal{
 	margin: 0px!important;
+}
+.fcii{
+	min-height: 51px;
+}
+.fcii:first-of-type{
+	margin-top: -1px;
+}
+.fcii:last-of-type{
+	margin-bottom: -2px;
+}
+.fcij{
+	min-height: 50px;
+}
+.fcij:last-of-type{
+	margin-bottom: -2px!important;
 }
