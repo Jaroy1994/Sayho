@@ -15,7 +15,7 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
-#### update code 20260508
+#### update code 20260509
 1 系统界面相关配置 》 设置系统主题 》 系统模块组件通用参数配置 ： 组件 > 表单样式 配置项名称变更以及配置项新增
 #### 
 a.新增配置项 表单样式-【整体边框圆角】：文本输入框 支持配置 上/右/下/左上角 边框圆角样式设置
