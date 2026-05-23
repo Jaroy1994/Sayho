@@ -17,8 +17,6 @@ https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video
 #### update code 20260523
 1 紧急修复 20260523 版本新增【虚拟列表-buffer】和【虚拟列表-dynamic】以及【虚拟列表-throttleTime】导致已经开发完毕的菜单页面表格无法展示(旧表格配置取不到新参数报错undefined)的兼容问题。
 #### 
-2 配置项 【虚拟列表-dynamic】默认“关闭”
-#### 
 
 #### update code 20260520
 1 系统界面相关配置 》 设置系统主题 》 系统模块组件通用参数配置 ： 模块 > 表格模块 > 表格模块视图区域
