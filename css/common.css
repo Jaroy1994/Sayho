@@ -2245,3 +2245,52 @@ height: 100%;
   20%, 60% { transform: translateX(2px); }
   100% { transform: translateX(0); }
 }
+
+.t-ani-bsd > .anm{
+    border: 1px solid rgba(245, 108, 108, 1)!important;
+    border-radius: 4px;
+    margin:0 !important;
+}
+/* 为 t-ani-bsd 类内的子元素添加闪烁边框动画 */
+.t-ani-bsd .anm,
+.t-ani-bsd .el-input,
+.t-ani-bsd .el-input__inner,
+.t-ani-bsd .el-input-number,
+.t-ani-bsd .el-select {
+    border-color: rgba(245, 108, 108, 1) !important;
+    animation: blinkjy 2s infinite;
+    position: relative;
+    z-index: 1;
+}
+
+/* 使用标准的 blinkjy 动画 */
+@keyframes blinkjy {
+    0% {
+        border-color: rgba(245, 108, 108, 1) !important;
+        box-shadow: 0 0 0px rgba(245, 108, 108, 0.3);
+    }
+    50% {
+        border-color: rgba(245, 108, 108, 0.8) !important;
+        box-shadow: 0 0 5px rgba(245, 108, 108, 0.8);
+    }
+    100% {
+        border-color: rgba(245, 108, 108, 1) !important;
+        box-shadow: 0 0 0px rgba(245, 108, 108, 0.3);
+    }
+}
+
+/* 针对 input 输入框的特殊样式 */
+.t-ani-bsd .el-input__inner {
+    transition: border-color 0.3s, box-shadow 0.3s;
+    position: relative;
+    z-index: 2;
+}
+
+/* 针对数字输入框的样式 */
+.t-ani-bsd .el-input-number .el-input__inner {
+    border-color: rgba(245, 108, 108, 1) !important;
+}
+.t-ani-bsd {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important
+}
