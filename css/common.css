@@ -1584,11 +1584,24 @@ div{
 		flex-wrap: wrap;
 	}
 }
+.wrapper3 > span {
+	display: flex;
+	/* align-items: center; */
+	flex-wrap: wrap;
+}
 .Bs_c .wrapper4{ 
 	span {
+		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 	}
 }
+.Bs_c .wrapper4 > span { 
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
 .el-rate{
 	display: flex;
 	align-items: center;

@@ -18,6 +18,16 @@ https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video
 #### update code 20260604
 1 js工程文件：完成部分大文件的js分包以及性能优化
 #### 
+2 修复QQ浏览器/火狐浏览器部分CSS样式兼容：
+#### 
+预处理器语法：使用了 Sass/SCSS 或 Less 的嵌套语法
+#### 
+未编译：部分 CSS 文件没有经过预处理器编译就直接使用了
+#### 
+浏览器兼容性：普通浏览器无法解析嵌套的 CSS 语法
+#### 
+QQ浏览器/火狐浏览器表现：QQ浏览器/火狐浏览器严格按照标准 CSS 解析，所以嵌套部分被忽略
+#### 
 
 #### update code 20260602
 1 js工程文件：完成部分大文件的js分包以及性能优化
