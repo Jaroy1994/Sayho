@@ -15,6 +15,12 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20260606
+1 发起请求 》 设置接口参数 》 参数值
+#### 
+功能描述：优化绑定参数字段表达式过长时的布局问题，限制最多展示3行，超出部分用省略号(...)显示，且鼠标悬停在字段上时，用气泡窗展示完整的字段表达式。
+#### 
+
 #### update code 20260604
 1 js工程文件：完成部分大文件的js分包以及性能优化
 #### 
