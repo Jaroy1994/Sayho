@@ -1234,26 +1234,6 @@ div{
 .ofhx{
 	overflow-x: hidden!important;
 }
-.ribbon{
-	color: #e6a23c;
-    background: #fdf6ec;
-    border: 1px solid #e6a23c;
-    border-radius: 3px;
-}
-.ribbon1{
-	color: #67c23a;
-    background: #f0f9eb;
-    border: 1px solid #67c23a;
-    border-radius: 3px;
-}
-.ribbon-active{
-	color: #fff!important;
-    background: #e6a23c!important;
-}
-.ribbon-active1{
-	color: #fff!important;
-    background: #67c23a!important;
-}
 .bubble{
 	padding: 0px!important;
     min-width:unset!important;
