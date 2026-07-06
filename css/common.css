@@ -757,6 +757,9 @@ div{
 .xhx{
 	text-decoration:underline;
 }
+.nhx{
+	text-decoration:unset!important;
+}
 .col3_g{
     min-width: 420px!important;
 }
@@ -2286,4 +2289,17 @@ height: 100%;
 .t-ani-bsd {
     padding-top: 5px !important;
     padding-bottom: 5px !important
+}
+.ec-wrapper {
+    display: flex !important;
+    width: 100% !important;
+}
+
+.ec-sidebar {
+    flex: 0 0 auto; /* 固定宽度，不允许伸缩 */
+}
+
+.ec-main {
+    flex: 1; /* 占据剩余空间 */
+    min-width: 0; /* 允许收缩到内容大小以下 */
 }
