@@ -15,6 +15,12 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20260708
+1 系统界面相关配置 》 设置导航菜单：设置权限 
+#### 
+紧急修复设置权限在配置【绑定权限校验数据】之后对话窗布局样式错乱的问题。
+#### 
+
 #### update code 20260707
 1 图标模块 》 添加图表 》图表视图配置 》 配置项 【显示数据看板】 设置看板：
 #### 
