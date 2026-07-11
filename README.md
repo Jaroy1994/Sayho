@@ -15,7 +15,7 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
-#### update code 20260708
+#### update code 20260711
 1 系统界面相关配置 》 设置系统主题 》 主页界面配置：前往设置
 #### 
 a.菜单模块样式 新增配置项【内侧边距】：输入框 允许对模块内侧边距上右下左自定义设置  默认值 0 10 10 10
