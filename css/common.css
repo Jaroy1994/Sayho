@@ -1680,6 +1680,9 @@ div{
 .fColl > div > .el-collapse-item__content{
     padding: 0!important;
 }
+.Dd_h .el-dialog__header{
+	padding: 0 20px !important;
+}
 .ndm .el-dialog,
 .Md_c .el-dialog,
 .ruleDialog > .el-dialog{
