@@ -14,6 +14,73 @@
 #### 教学视频地址
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
+#### update code 20260721
+1 查询/表单模块 》 按钮》 按钮功能类型-发起请求：
+#### 
+a.设置接口参数【参数来源】：当【接口请求参数】其【参数类型】为array[成员类型：object]时，【参数来源】新增选项 “多数组解构合并”
+#### 
+功能描述：参数来源为多数组解构合并时，可从当前页面别处选取多个数据类型同为对象格式的数组，按照当前接口请求参数的数组成员对象格式通过.map()方法分别进行解构与赋值，最终合并为一个新数组。
+#### 
+举例：设当前接口请求参数为data，成员格式为[{
+#### 
+name:"",//集团名称或公司名称
+#### 
+code:"",//集团编号或公司编号
+#### 
+type:"",//集团为"1" 公司为"2"
+#### 
+}],
+#### 
+设当前页面存在：数组groupList=[{group_name:"测试集团名称1",group_code:"GC10001"},{group_name:"测试集团名称2",group_code:"GC10002"}]
+#### 
+和数组companyList=[{company_name:"测试公司名称1",company_code:"SC10001"}]
+#### 
+则：data=[...groupList.map(item => {
+#### 
+return {
+#### 
+name: item.group_name,//动态赋值
+#### 
+code: item.group_code,//动态赋值
+#### 
+type: "1",//前端设置固定值
+#### 
+}
+#### 
+}) , companyList.map(item => {
+#### 
+return {
+#### 
+name: item.company_name,//动态赋值
+#### 
+code: item.company_code,//动态赋值
+#### 
+type: "2",//前端设置固定值
+#### 
+}
+#### 
+})
+#### 
+]
+#### 
+最终输出：data=[
+#### 
+{name:"测试集团名称1",code:"GC10001",type:"1"},
+#### 
+{name:"测试集团名称2",code:"GC10002",type:"1"},
+#### 
+{name:"测试公司名称1",code:"SC10001",type:"2"},
+#### 
+]
+#### 
+
+####
+2 组件：多选按钮checkbox/下拉选择框select/单选按钮radio
+#### 
+a.配置项 【选项默认值】：新增选项 “从已有数组筛选”
+#### 
+功能描述：由前端对后端返回的数组数据，根据自身业务需求将不符合条件的数据由前端进行筛选，然后再将符合条件的数据作为默认值于页面进行展示。
+#### 
 
 #### update code 20260715
 1 系统界面相关配置 》 设置系统主题 》 系统模块组件通用参数配置 ： 组件
