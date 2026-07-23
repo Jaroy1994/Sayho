@@ -111,10 +111,16 @@ function uploadToServer(file) {
             method: 'POST',
             body: formData
         })
+        .then(res => res.json())
         .then(result => {
             // 请根据后端返回结构调整，这里的result.data?.imageUrl || result.imageUrl仅作示例
             if (result.code === 0 || result.success === true) {
-                resolve(result.data?.imageUrl || result.imageUrl);
+                const imageUrl = result.data?.imageUrl || result.imageUrl;
+                if (typeof imageUrl !== 'string' || !/^https:\/\//i.test(imageUrl)) {
+                    reject(new Error('无效的图片URL'));
+                    return;
+                }
+                resolve(imageUrl);
             } else {
                 reject(new Error(result.msg || '上传失败'));
             }
