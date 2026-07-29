@@ -15,13 +15,14 @@
     language_url: 语言包依赖路径
     skin_url: 主题皮肤依赖路径
     content_css: css样式依赖路径
+    height: 富文本组件高度
  * **/ 
-function richTextInit(id, value, onInit, onChange,language_url,skin_url,content_css) { 
+function richTextInit(id, value, onInit, onChange,language_url,skin_url,content_css,height) { 
     return {
         selector: '#' + id,
         language: 'zh_CN',
         language_url: language_url,
-        height: 400,
+        height: height||400,
         width: '100%',
         // 插件（按需加载，如需添加请前往TinyMCE官方文档中查看相应配置）
         plugins: 'lists link image table code fullscreen wordcount',
@@ -72,8 +73,8 @@ function richTextInit(id, value, onInit, onChange,language_url,skin_url,content_
                     // 方式1：Base64 直接插入（适合小图）
                     callback(reader.result, { alt: file.name });//若使用方法2自动图片上传，请注释此行代码
                     
-                    // 方式2：自动图片上传 先上传到服务器，再返回URL 请自行定义uploadToServer发起后端api接口对接
-                    // uploadToServer(file).then(url => callback(url));
+                    // 方式2：自动图片上传 先上传到服务器，再返回URL 
+                    // uploadToServer(file).then(url => callback(url));//若使用方法2，请取消此行代码的注释，再自行定义uploadToServer发起后端api接口对接
                 };
                 reader.readAsDataURL(file);
             };
@@ -98,8 +99,8 @@ function richTextInit(id, value, onInit, onChange,language_url,skin_url,content_
  */
 function uploadToServer(file) {
     return new Promise((resolve, reject) => {
-        const host='https://xxx.com/';//服务器域名站点
-        const apiUrl='api/upload';//上传文件到服务器API接口请求地址
+        const host='https://xxx.com/';//服务器域名站点，请根据自身业务自行配置，这里的'https://xxx.com/'仅作示例
+        const apiUrl='api/upload';//上传文件到服务器API接口请求地址，请根据自身业务自行配置，这里的'api/upload'仅作示例
         const formData = new FormData();
         formData.append('file', file);
         /**
@@ -112,7 +113,7 @@ function uploadToServer(file) {
             body: formData
         })
         .then(result => {
-            // 请根据后端返回结构调整，这里的result.data?.imageUrl || result.imageUrl仅作示例
+            // 请根据后端接口响应返回数据结构调整，这里的result.data?.imageUrl || result.imageUrl仅作示例
             if (result.code === 0 || result.success === true) {
                 resolve(result.data?.imageUrl || result.imageUrl);
             } else {

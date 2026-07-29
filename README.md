@@ -15,6 +15,14 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20260729
+1 查询/表单模块 》 富文本richtext ：
+#### 
+a.新增配置项【富文本更多设置】：前往设置 > 配置弹窗 
+#### 
+a-1：新增配置项【富文本高度】输入框 默认400px
+#### 
+
 #### update code 20260728
 1 查询/表单模块 》 时段选择器daterange ：
 #### 
