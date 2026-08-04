@@ -2317,11 +2317,16 @@ height: 100%;
 
 .sr-cr {
 	flex: 1;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .sr-a {
   	height: 100%;
+}
+.sr-b {
+	display: flex;
+    flex-direction: column;
+    min-height: 0; 
 }
 .lg-cr {
 	display: flex;
