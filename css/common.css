@@ -1357,7 +1357,14 @@ div{
 	background-color: rgba(0,0,0,0.5);
 	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
 }
-
+.swh {
+  /* 隐藏滚动条但允许滚动 */
+  -ms-overflow-style: none!important;     /* IE 和 Edge */
+  scrollbar-width: none!important;        /* Firefox */
+}
+.swh::-webkit-scrollbar {
+  display: none!important;                /* Chrome, Safari, Opera */
+}
 .diy-table{
 	border:1px solid #DCDFE6;
     border-bottom:0px;
@@ -2215,6 +2222,12 @@ height: 100%;
 }
 .el-timeline-item{
 	padding: 0px!important;
+}
+.Lptl .el-timeline-item{
+    padding-bottom: 20px!important;
+}
+.lp-time-picker .el-time-panel__footer{
+    display: none !important;
 }
 .el-divider--horizontal{
 	margin: 0px!important;
