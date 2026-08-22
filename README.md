@@ -15,6 +15,14 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20260822
+1 系统界面相关配置 》 设置系统主题 》 前台界面管理/page 》 前台界面配置
+#### 
+a.配置项【模块类型】 》 时间轴模块:
+#### 
+功能描述：完善时间轴模块更多配置项功能设置
+####
+
 #### update code 20260818
 1 系统界面相关配置 》 设置系统主题 》 前台界面管理/page 》 前台界面配置
 #### 
