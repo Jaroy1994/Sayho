@@ -15,6 +15,18 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+
+#### update code 20260829
+1 查询/表单模块 》 按钮》 按钮功能类型-发起请求：
+#### 
+a.设置接口参数【参数来源】：当【接口请求参数】其【参数类型】为字符串(String)时，【参数来源】新增选项 “JSON.stringify()”
+#### 
+功能描述：JSON.stringify()是JavaScript中用于将数组(Array)或对象(Object)转换为JSON字符串的方法
+示例1：let arr = [{name:"小明",age:"18"}];// JSON.stringify(arr) => 输出结果为：'[{\"name\":\"小明\",\"age\":\"18\"}]'
+示例2：let obj = {name:"小明",age:"18"};// JSON.stringify(obj) => 输出结果为：'{\"name\":\"小明\",\"age\":\"18\"}'
+请根据自身业务需求决定是否对数组(Array)或对象(Object)进行JSON字符串转换的设置
+#### 
+
 #### update code 20260825
 1 系统界面相关配置 》 设置系统主题 》 主页界面配置：前往设置
 #### 
