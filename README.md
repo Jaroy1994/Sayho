@@ -15,6 +15,13 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20260901
+1 查询/表单模块 》 按钮》 按钮功能类型-发起请求：
+#### 
+a.设置接口参数【参数来源】：当【接口请求参数】其【参数类型】为字符串(String)时，【参数来源】选项 “JSON.stringify()”
+#### 
+功能描述：补充增加表格数组的绑定
+#### 
 
 #### update code 20260829
 1 查询/表单模块 》 按钮》 按钮功能类型-发起请求：
