@@ -20,14 +20,16 @@ html,body{
 	z-index: 1;
 }
 .hidden {
-	opacity: 0;
-	visibility: hidden;
-	transition: opacity 0.3s ease, visibility 0.3s ease;
+	display: none
+	/* opacity: 0;
+	visibility: hidden; */
+	/* transition: opacity 0.3s ease, visibility 0.3s ease; */
 }
 .visible {
-	opacity: 1;
+	display: block
+	/* opacity: 1;
 	visibility: visible;
-	transition: opacity 0.3s ease, visibility 0.3s ease;
+	transition: opacity 0.3s ease, visibility 0.3s ease; */
 }
 .b{
 	display: flex;
@@ -52,6 +54,13 @@ html,body{
 .va{
 	width: 100%;
 	height: 100%;
+}
+.va-1{
+	width:calc(100% - 1 px);
+	height: 100%;
+}
+.w100-1{
+	width:calc(100% - 1 px);
 }
 .viewbody{
 	max-width: 1920px;
@@ -1784,11 +1793,11 @@ div{
     overflow-x: scroll;
 }
 .wcsroll-auto_w4{
-    max-width: 1690px;
+    max-width: 1720px;
     overflow-x: scroll;
 }
 .wcsroll-auto_w4-d{
-    max-width: 0.7*1690px;
+    max-width: 0.7*1720px;
     overflow-x: scroll;
 }
 .col3_wcsroll-auto_w {
@@ -1798,10 +1807,10 @@ div{
     width: 0.7*1360px;
 }
 .col4_wcsroll-auto_w {
-    width: 1690px;
+    width: 1720px;
 }
 .col4_wcsroll-auto_w-d {
-    width: 0.7*1690px;
+    width: 0.7*1720px;
 }
 /* .Pp_c .el-dialog{
     min-width: 1280px!important;
