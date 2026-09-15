@@ -15,6 +15,12 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20260915
+1 系统界面相关配置 》 设置系统主题 》 前台界面管理/page 》 前台界面配置 》 时间轴模块》基础配置-前往设置：
+#### 
+a.配置项【时间轴载体】: 选项 新增 “图片”
+#### 
+
 #### update code 20260904
 1 系统界面相关配置 》 设置系统主题 》 系统模块组件通用参数配置 ： 模块 > 表格模块：
 #### 
