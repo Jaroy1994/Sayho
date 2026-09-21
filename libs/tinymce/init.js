@@ -36,6 +36,10 @@ function richTextInit(id, value, onInit, onChange,language_url,skin_url,content_
         // 皮肤路径（离线必须）
         skin_url: skin_url,
         content_css: content_css,
+        // 安全配置：禁止 script 标签与 javascript: 协议链接，防止通过 code/link/media 插件注入可执行脚本（XSS）
+        invalid_elements: 'script',
+        allow_script_urls: false,
+        convert_unsafe_embeds: true,
         /**
          * 初始化实例回调函数 init_instance_callback
          * 参数：editor 实例
