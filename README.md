@@ -15,6 +15,12 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20260922
+1 表格模块 》 复合组件 》 成员
+#### 
+a.配置项【成员类型】:新增 标签< tag> 选项
+####
+
 #### update code 20260919
 1 复合组件 》 html/css基础设置 》 配置项【背景类型】
 #### 
