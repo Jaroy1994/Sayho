@@ -15,6 +15,12 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20261008
+1 系统界面相关配置 》 设置系统主题 》 系统模块组件通用参数配置 ： 组件
+#### 
+a.新增配置项 文本内容text-【文本内容区域高度】：单选按钮 选项 由内容撑开/自定义  默认值 自定义 50px
+#### 
+
 #### update code 20260922
 1 表格模块 》 复合组件 》 成员
 #### 
