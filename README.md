@@ -15,6 +15,18 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
+#### update code 20261010
+1 前端开发相关配置 》 设置请求资源 》 依赖库libs配置信息 
+#### 
+a.新增配置项【引入自定义文件】：单选按钮 选项 是/否 默认“否”
+#### 
+功能描述：当配置项引入自定义文件为是时，将允许引入文件后缀为.js或.css的自定义文件；配置前，请先确保需要引入的文件存在项目库libs文件夹当中。
+#### 
+在完成配置之后，届时复合组件 》 成员 html/css基础设置 新增css设置方式配置项；
+#### 
+合法格式：app.js、style.css、vendor.main.min.js或theme-dark.css
+#### 
+
 #### update code 20261008
 1 系统界面相关配置 》 设置系统主题 》 系统模块组件通用参数配置 ： 组件
 #### 
