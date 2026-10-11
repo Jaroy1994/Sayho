@@ -26,7 +26,7 @@ a.新增配置项【引入自定义文件】：单选按钮 选项 是/否 默�
 #### 
 合法格式：app.js、style.css、vendor.main.min.js或theme-dark.css
 #### 
-2 复合组件 》 html/css基础设置 》 配置项【背景类型】
+2 复合组件 》 html/css基础设置
 #### 
 a.新增配置项【css设置方式】:单选按钮 选项 系统默认/绑定class 默认“系统默认”；当【css设置方式】为“是”时，条件展示class名输入框
 ####
