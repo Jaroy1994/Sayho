@@ -15,7 +15,7 @@
 https://www.bilibili.com/video/BV13XZqYLEC6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=162028d3966917ebd37a149b5e8bdc8e
 
 
-#### update code 20261010
+#### update code 20261011
 1 前端开发相关配置 》 设置请求资源 》 依赖库libs配置信息 
 #### 
 a.新增配置项【引入自定义文件】：单选按钮 选项 是/否 默认“否”
@@ -26,6 +26,17 @@ a.新增配置项【引入自定义文件】：单选按钮 选项 是/否 默�
 #### 
 合法格式：app.js、style.css、vendor.main.min.js或theme-dark.css
 #### 
+2 复合组件 》 html/css基础设置 》 配置项【背景类型】
+#### 
+a.新增配置项【css设置方式】:单选按钮 选项 系统默认/绑定class 默认“系统默认”；当【css设置方式】为“是”时，条件展示class名输入框
+####
+功能描述：当配置项css设置方式为绑定class时，将为当前成员dom元素设置对应的class属性；
+#### 
+配置之前，请先前往前端开发相关配置》设置请求资源》依赖库libs配置信息》引入自定义文件完成自定义css文件的引入，
+#### 
+并确保填写的class名存在于项目库libs文件夹的自定义css文件当中。
+#### 
+
 
 #### update code 20261008
 1 系统界面相关配置 》 设置系统主题 》 系统模块组件通用参数配置 ： 组件
