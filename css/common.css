@@ -2117,6 +2117,8 @@ height: 100%;
 	font-size: 14px!important;
 }
 .lch span{
+	display: flex;
+	align-items: center;
 	height: 100%!important;
 }
 .el-drawer__header{
