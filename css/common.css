@@ -48,6 +48,9 @@ html,body{
 .f1{
 	flex: 1;
 }
+.f1 > span {
+	height: 100%;
+}
 .fg1{
 	flex-grow: 1;
 }
@@ -74,7 +77,11 @@ html,body{
 .popover-ofh{
 	overflow: hidden!important;
 }
-
+.ed-ia {
+    color: #409EFF!important;
+    font-weight: bold;
+    background-color: #ecf5ff;
+}
 @media(max-width:1680px){
 	.side{
 		width:15%;
@@ -425,6 +432,9 @@ div{
 }
 .minw240p{
 	min-width: 240px!important;
+}
+.minw420p{
+	min-width: 420px!important;
 }
 .maxw120p{
 	max-width: 120px!important;
@@ -799,6 +809,9 @@ div{
 .m0_20{
 	margin: 0 20px;
 }
+.mla{
+	margin-left: auto;
+}
 .ml0{
 	margin-left: 0px;
 }
@@ -837,6 +850,9 @@ div{
 }
 .mr10{
 	margin-right: 10px!important;
+}
+.mr-10{
+	margin-right: 10px;
 }
 .mr20{
 	margin-right: 20px;
@@ -1688,13 +1704,15 @@ div{
 	padding-left: 20px;
 }
 .p0,
-.popover-nb,
 .Bs_c .el-dialog__body,
 .Ts_c .el-dialog__body,
 .Pp_c .el-dialog__body,
 .Pp_c .el-dialog__header,
 .fColl > div > .el-collapse-item__content{
     padding: 0!important;
+}
+.popover-nb{
+	padding: 1px 0px!important;
 }
 .Dd_h .el-dialog__header{
 	padding: 0 20px !important;
@@ -2331,6 +2349,7 @@ height: 100%;
     min-width: 0; /* 允许收缩到内容大小以下 */
 }
 .tbb > .el-badge__content{
+	z-index: 999;
 	transform:translateY(-50%) translateX(40%)!important
 }
 .wjz {
